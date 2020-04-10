@@ -1,0 +1,25 @@
+extends ../layout
+//- block head
+block content
+    h3 SAVO register
+    form(id='registerform' action='/api/register' enctype='application/json')
+        .row
+            .col-sm-5
+                label(for='nick') Nick
+                input.form-control(name='nick' placeholder='Nickname' type='username')
+            .col-sm-7
+                label(for='email') Mail
+                input.form-control(name='email' placeholder='E-mail' type='email')
+        .row
+            .col-sm-6
+                label(for='pwd') Password
+                input.form-control(name='pwd' placeholder='Password' type='password')
+            .col-sm-6
+                label(for='pwd1') &nbsp;
+                input.form-control(name='pwd1' placeholder='Retype password' type='password')
+        .row
+            .col-sm-12
+                button.btn.btn-primary(type='submit') Register
+        .row
+            .com-sm-12
+                h3#status

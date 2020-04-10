@@ -1,0 +1,9 @@
+extends layout
+block head
+    link(rel='stylesheet', href='/static/game.css')
+    script(type='text/javascript', src='/lib/impact/impact.js')
+    script(type='text/javascript', src='/lib/game/main.js')
+block content
+    center
+        h3 SAVO
+        canvas#game

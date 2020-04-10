@@ -1,0 +1,14 @@
+
+body {
+    background-color: #333;
+    color: #CCC;
+}
+
+form > * {
+    margin-top: 0.75vh;
+    margin-bottom: 0.75vh;
+}
+
+#content {
+    margin: 3rem;
+}

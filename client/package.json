@@ -1,0 +1,30 @@
+{
+  "name": "savo",
+  "version": "0.4.20",
+  "description": "1337 MMO js game",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "NODE_ENV=development nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghost-Zephyr/savo.git"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "Sivert V. Sæther",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghost-Zephyr/savo/issues"
+  },
+  "homepage": "https://github.com/Ghost-Zephyr/savo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,5 @@
+gunicorn
+flask-pymongo
+flask
+bcrypt
+authlib
