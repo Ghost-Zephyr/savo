@@ -8,6 +8,7 @@ services:
     - FLASK_APP=server.py
     - FLASK_ENV=development
     command: flask run -h0.0.0.0 -p8060
+    retsart: unless-stopped
     depends_on:
     - mongodb
   client:
